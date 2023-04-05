@@ -26,6 +26,6 @@ before that common JS module was used
 
 
 */
-const { sum, sub, mul, div } = require("./app"); // Local modules
+const { sum, sub, mul, div } = require("./LocalModule"); // Local modules
 
 console.log(sum(10, 10));
