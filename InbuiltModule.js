@@ -15,3 +15,5 @@ console.log(OS.version());
 console.log(OS.freemem());
 
 console.log(OS.userInfo());
+
+document.getElementById("demo").innerText = "hey";
