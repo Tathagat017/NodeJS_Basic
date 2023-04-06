@@ -35,3 +35,5 @@ Types of Node Modules :-
 //isNumber is dependant on kind-of dependancy
 //kind-of dependant on is-buffer
 //is-buffer is dependant on nothing
+
+//package-lock.json is summary of all the packages and their dependencies
