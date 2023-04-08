@@ -75,12 +75,12 @@ const fs = require("fs");
 //~.....................................................................
 //!Process <process.argv>
 
-//console.log(process.argv);
-let num1 = Number(process.argv[3]);
-let num2 = Number(process.argv[4]);
-if (process.argv[2] == "sum") {
-  console.log(num1 + num2);
-}
+// //console.log(process.argv);
+// let num1 = Number(process.argv[3]);
+// let num2 = Number(process.argv[4]);
+// if (process.argv[2] == "sum") {
+//   console.log(num1 + num2);
+// }
 
 //~.....................................................................
 // const isEven = require("is-even");
@@ -95,3 +95,19 @@ if (process.argv[2] == "sum") {
 //   if (err) throw err;
 //   console.log(data);
 // });
+
+//~ =================================
+
+const writeFile = fs.writeFile("./newText.txt", "hey", (err) => {
+  if (err) throw err;
+  else console.log("done");
+});
+const write2File = fs.writeFile(
+  "./newText.txt",
+  "  heloo",
+  { flag: "a" },
+  (err) => {
+    if (err) throw err;
+    else console.log("done");
+  }
+);
