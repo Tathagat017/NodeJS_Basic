@@ -1,0 +1,12 @@
+{
+  "name": "node-day3",
+  "version": "1.0.0",
+  "description": "HTTPS\r 1.</Client server model>\r 2.</3-way handshake > 3.</Bandwith>--> speed is 100 Mbps -> Megabit/second\r to dowload a 10 GB file --> 100Mbps tp MBps(megaBytes)-->100/8 = 12.5MBps\r time is 10\\*1024 MBs = 10024/12.5 = 13 mins 20 seconds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
